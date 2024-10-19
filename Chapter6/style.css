@@ -1,0 +1,557 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font:  62.5%;
+}
+/* *********************************** HEADING STYLYING ******************************************* */
+#heading{
+    margin-top: 1.2rem;
+}
+
+
+
+
+/* *********************************** STYLYING OF FIRST MAIN DIV ******************************************* */
+#main{
+    height: 68vh;
+    width: 222vh;
+    border: 1.5px solid black;
+    margin-left: 1.2rem;
+    margin-right: 1.8rem;
+    margin-top: .2rem;
+
+}
+
+
+
+
+
+                                              /* 1st ROW */
+
+#firstRow{
+    display: flex;
+}
+
+
+ /* ****************************** STYLYING FOR BOX 1 *************************************** */
+ #box1 {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 3rem; /* Ensure proper height */
+    width: 4rem;  /* Adjust width */
+    border: 1.5px solid black;
+    background: orangered;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#box1 sup {
+    font-size: 0.8rem; /* Smaller font for superscript */
+    position: relative;
+    top: -0.6rem; /* Adjust the superscript's vertical position */
+}
+
+
+
+/* ****************************** STYLYING FOR BOX 2 *************************************** */
+#box2{
+    display: flex;
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 3rem; /* Ensure proper height */
+    width: 68.3rem;  /* Adjust width */
+    border: 1.5px solid black;
+}
+
+/* ****************************** STYLYING FOR BOX 3 *************************************** */
+.blue {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 3rem; /* Ensure proper height */
+    width: 4rem;  /* Adjust width */
+    border: 1.5px solid black;
+    background: lightblue;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.blue sup {
+    font-size: 0.8rem; /* Smaller font for superscript */
+    position: relative;
+    top: -0.6rem; /* Adjust the superscript's vertical position */
+}
+
+
+
+
+
+
+                                              /* 2nd ROW */
+
+#secondRow{
+    display: flex;
+}
+
+/* ****************************** STYLYING FOR BOX 4 *************************************** */
+
+.purple {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 3rem; /* Ensure proper height */
+    width: 4rem;  /* Adjust width */
+    border: 1.5px solid black;
+    background: rgb(203, 59, 203);
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.purple sup {
+    font-size: 0.8rem; /* Smaller font for superscript */
+    position: relative;
+    top: -0.6rem; /* Adjust the superscript's vertical position */
+}
+
+/* ****************************** STYLYING FOR BOX 6 *************************************** */
+#box6{
+    display: flex;
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 3rem; /* Ensure proper height */
+    width: 42.1rem;  /* Adjust width */
+    border: 1.5px solid black;
+}
+
+
+/* ****************************** STYLYING FOR BOX 7 *************************************** */
+
+.brown {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 3rem; /* Ensure proper height */
+    width: 4rem;  /* Adjust width */
+    border: 1.5px solid black;
+    background: brown;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.brown sup {
+    font-size: 0.8rem; /* Smaller font for superscript */
+    position: relative;
+    top: -0.6rem; /* Adjust the superscript's vertical position */
+}
+
+/* ****************************** STYLYING FOR BOX 8,9 And 10 *************************************** */
+
+.tomatoRed {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 3rem; /* Ensure proper height */
+    width: 4rem;  /* Adjust width */
+    border: 1.5px solid black;
+    background: rgb(255, 99, 71);
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.tomatoRed sup {
+    font-size: 0.8rem; /* Smaller font for superscript */
+    position: relative;
+    top: -0.6rem; /* Adjust the superscript's vertical position */
+}
+
+
+/* ****************************** STYLYING FOR BOX 11 *************************************** */
+
+.MustardYellow {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 3rem; /* Ensure proper height */
+    width: 4rem;  /* Adjust width */
+    border: 1.5px solid black;
+    background: rgb(204, 153, 0);
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.MustardYellow sup {
+    font-size: 0.8rem; /* Smaller font for superscript */
+    position: relative;
+    top: -0.6rem; /* Adjust the superscript's vertical position */
+}
+
+
+
+
+                                              /* 3rd ROW */
+
+#thirdRow{
+      display: flex;
+}
+
+/* ****************************** STYLYING FOR BOX 14 *************************************** */
+
+.ligth-purple {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 3rem; /* Ensure proper height */
+    width: 4rem;  /* Adjust width */
+    border: 1.5px solid black;
+    background: rgb(153, 102, 255);
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ligth-purple sup {
+    font-size: 0.8rem; /* Smaller font for superscript */
+    position: relative;
+    top: -0.6rem; /* Adjust the superscript's vertical position */
+}
+/* ****************************** STYLYING FOR BOX 15 *************************************** */
+#box15{
+    display: flex;
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 3rem; /* Ensure proper height */
+    width: 42.1rem;  /* Adjust width */
+    border: 1.5px solid black;
+}
+
+/* ****************************** STYLYING FOR BOX 16 *************************************** */
+
+.green {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 3rem; /* Ensure proper height */
+    width: 4rem;  /* Adjust width */
+    border: 1.5px solid black;
+    background: green;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.green sup {
+    font-size: 0.8rem; /* Smaller font for superscript */
+    position: relative;
+    top: -0.6rem; /* Adjust the superscript's vertical position */
+}
+
+
+
+
+
+
+                                              /* FOURTH ROW */
+ #fourthRow{ 
+            display: flex;
+}
+                                          
+            /* ****************************** STYLYING FOR BOX 24 *************************************** */
+                                          
+.yellow {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 3rem; /* Ensure proper height */
+    width: 4rem;  /* Adjust width */
+    border: 1.5px solid black;
+    background: yellow;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}                                      
+.yellow sup {
+    font-size: 0.8rem; /* Smaller font for superscript */
+    position: relative;
+    top: -0.6rem; /* Adjust the superscript's vertical position */
+}
+
+#box26{
+    width: 3.9rem;
+}
+#box30{
+    width: 3.7rem;
+}
+#box31{
+    width: 3.6rem;
+}
+#box32{
+    width: 3.6rem;
+}
+
+
+
+
+                                              /* FIFTH ROW */
+#fifthRow{ 
+    display: flex;
+}
+
+#box44{
+    width: 3.9rem;
+}
+#box48{
+    width: 3.7rem;
+}
+#box49{
+    width: 3.6rem;
+}
+#box50{
+    width: 3.6rem;
+}
+
+
+
+
+                                             /* SIXTH ROW */
+#sixthRow{ 
+    display: flex;
+}
+
+                                        
+.pink {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 3rem; /* Ensure proper height */
+    width: 4rem;  /* Adjust width */
+    border: 1.5px solid black;
+    background: pink;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}                                      
+.pink sup{
+    font-size: 0.8rem; /* Smaller font for superscript */
+    position: relative;
+    top: -0.6rem; /* Adjust the superscript's vertical position */
+}
+
+
+#box62{
+    width: 3.9rem;
+}
+#box84{
+    width: 3.7rem;
+}
+#box85{
+    width: 3.6rem;
+}
+#box86{
+    width: 3.6rem;
+}
+
+
+
+
+
+
+                                            /*  SEVEN ROW */
+#sevenRow{ 
+    display: flex;
+}
+
+                                        
+.no_color {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 3rem; /* Ensure proper height */
+    width: 4rem;  /* Adjust width */
+    border: 1.5px solid black;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}                                      
+.no_color sup{
+    font-size: 0.8rem; /* Smaller font for superscript */
+    position: relative;
+    top: -0.6rem; /* Adjust the superscript's vertical position */
+}
+ 
+ 
+#box80{
+    width: 3.9rem;
+}
+#box66{
+    width: 3.7rem;
+}
+#box67{
+    width: 3.6rem;
+}
+#box68{
+    width: 3.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *********************************** STYLYING OF SECOND MAIN DIV ******************************************* */
+#second_main{
+    height: 16.5vh;
+    width: 210vh;
+    border: 1.5px solid black;
+    margin-left: 1.2rem;
+    margin-right: 1.8rem;
+    margin-top: .5rem;
+}
+
+/* ****************************** STYLYING FOR BOX 95 *************************************** */
+
+#second_main {
+    display: flex;
+}
+.blank_box {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 5.2rem; /* Ensure proper height */
+    width: 1.5rem;  /* Adjust width */
+    border: 1.5px solid black;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+/* EIGHT ROW */
+#eightRow{ 
+    display: flex;
+  
+    
+    height: 2.6rem; 
+
+}
+
+
+ 
+                                        
+.Pink {
+    margin-top: .2rem;
+    margin-left: .2rem;
+    height: 2.5rem; /* Ensure proper height */
+    width: 4.14rem;  /* Adjust width */
+    border: 1.5px solid black;
+    background: pink;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}                                      
+.Pink sup{
+    font-size: 0.8rem; /* Smaller font for superscript */
+    position: relative;
+    top: -0.6rem; /* Adjust the superscript's vertical position */
+}
+
+
+#nineRow{
+    display: flex;
+    margin-top: 2.8rem;
+    height: 2.6rem;
+    margin-left: -69.44rem;
+} 
+  
+
+ /*********************** RESPONSIVE CODE  *****************************/
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr); /* 18 columns by default */
+    gap: 2px; /* Space between elements */
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 1rem;
+    aspect-ratio: 1; /* Keeps elements square */
+  }
+  
+  /* For large screens (above 1200px) */
+  @media (max-width: 1200px) {
+    .periodic-table {
+      grid-template-columns: repeat(12, 1fr); /* 12 columns */
+    }
+  }
+  
+  /* For medium screens (768px to 1199px) */
+  @media (max-width: 768px) {
+    .periodic-table {
+      grid-template-columns: repeat(9, 1fr); /* 9 columns */
+    }
+  
+    .element {
+      font-size: 0.85rem;
+    }
+  }
+  
+  /* For small screens (480px to 767px) */
+  @media (max-width: 480px) {
+    .periodic-table {
+      grid-template-columns: repeat(6, 1fr); /* 6 columns */
+    }
+  
+    .element {
+      font-size: 0.75rem;
+    }
+  }
+  
+  /* For extra small screens (below 480px) */
+  @media (max-width: 320px) {
+    .periodic-table {
+      grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    }
+  
+    .element {
+      font-size: 0.7rem;
+    }
+  }
+  

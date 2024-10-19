@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pana Cloud Header</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- ---------------------------------- header ------------------------------------->
+    <header id="header">
+        <div class="logo">
+            <img src="pana-removebg-preview.png" alt="Pana Cloud Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#AboutPage">ABOUT</a></li>
+                <li><a href="#portfolio-page">PORTFOLIO</a></li>
+                <li><a href="#contact-page">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ------------------------------- Image ------------------------------------>
+     <div id="image">
+      <img src="../Chapter8/pic3.jpg" alt="Laptop">
+     </div>
+
+
+  
+         <!-- ------------------------------- Home SECTION ------------------------------------>
+<div class="paragraph">
+  STC is an innovator in the digital world, we help our clients identify new opportunities, lead change, and 
+differentiate their brand. Our process is driven by data analysis coupled with a deep understanding of the 
+customer experience. Whether clients need digital marketing services or consulting, they come to us to 
+present themselves effectively in the digital arena.
+</div>
+
+
+
+<!-- ------------------------------- About Section ----------------------------------->
+<section id="AboutPage">
+<div class="about">
+    <h1><u>About This Website</u></h1>
+    <p>
+        Welcome to Pana Cloud! This website is designed to showcase our innovative digital solutions and 
+        services. We are committed to helping our clients navigate the digital landscape with ease and efficiency.
+    </p>
+    <p>
+        At Pana Cloud, we believe in the power of technology to transform businesses. Our team of experts 
+        specializes in various digital services, including web development, digital marketing, and consulting.
+        We aim to provide our clients with the tools they need to succeed in the ever-changing digital world.
+    </p>
+    <p>
+        Whether you’re looking to enhance your online presence or seek advice on digital strategies, 
+        Pana Cloud is here to help you achieve your goals. Thank you for visiting our website!
+    </p>
+</div>
+
+
+<!------------------------------------------ YOUTUBE VIDEO KEYFRAME ----------------------------------------->
+<div id="video-container">
+    <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/Hh6YMF6eTKw?rel=0" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+
+</div>
+
+</section>
+
+
+<!-- PORTFOLIO PAGE  -->
+<section id="portfolio-page">
+<div class="project-grid">
+  <!-- Project 1 -->
+  <div class="project">
+    <img src="../Chapter8/Bootcamp.jpeg" alt="Bootcamp-2020 Project Image">
+    <h3>Bootcamp-2020</h3>
+    <p>Serverless SaaS with cloud technologies.</p>
+  </div>
+  <!-- Project 2 -->
+  <div class="project">
+    <img src="../Chapter8/Learn Typed Express Project.png" alt="Learn Angular Project Image">
+    <h3>Learn Angular</h3>
+    <p>Step-by-step guide to mastering Angular.</p>
+  </div>
+  <!-- Project 3 -->
+  <div class="project">
+    <img src="../Chapter8/Angular Project.jpeg" alt="Learn Typed Express Project Image">
+    <h3>Learn Typed Express</h3>
+    <p>Backend with TypeScript and Express.</p>
+  </div>
+  <!-- Project 4 -->
+  <div class="project">
+    <img src="../Chapter8/Web3.0.png" alt="Next Web3 Auth Project Image">
+    <h3>Next Web3 Auth</h3>
+    <p>Blockchain-based Web3 authentication.</p>
+  </div>
+</section>
+
+
+
+<!-- ------------------------------- CONTACT Section ----------------------------------->
+ <section id="contact-page">
+<div id="main">
+    <h1 id="heading"><u>CONTACT US</u></h1>
+    
+    
+ <!-- ------------------------------- Detail fieldset ----------------------------------->   
+<fieldset id="detail" class="fieldset">
+    <legend>Detail</legend>
+
+       <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter Your Name" required>
+<br>
+
+
+
+    <label for="phone-number">Phone Number:</label>
+    <input type="number" id="phone-number" placeholder="Enter Your Phone Name" required>
+<br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="abc@gmail.com" required>
+<br>
+</fieldset>
+
+
+ <!-- ------------------------------- Review fieldset ----------------------------------->   
+ 
+<fieldset id="review" class="fieldset">
+    <legend>Your Review</legend>
+    <label for="about-us">How did you hear about us:</label>
+            <select id="about-us" name="about-us">
+                <option value="Google" selected>Google</option>
+                <option value="Youtue">Youtube</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Facebook">Facebook</option>
+                <option value="TikTok">TikTok</option>
+                <option value="Friends">Friends</option>
+                <option value="Others">Others</option>
+            </select>
+<br>
+<label for="visit">Would you visit again:</label><br>
+        
+            <input type="radio" id="Yes" name="visit" value="Yes" required checked>
+            <label for="Yes">Yes</label><br>
+        
+            <input type="radio" id="No" name="visit" value="No">
+            <label for="No">No</label><br>
+        
+            <input type="radio" id="MayBe" name="visit" value="MayBe">
+            <label for="MayBe">MayBe</label><br>
+
+          <br>
+          
+            <label for="comments">COMMENTS:</label>
+
+            <div class="comment-box"></div>
+            <textarea name="text" id="comments" cols="50" rows="7" placeholder="Typing..."></textarea>
+            
+        <br>
+    
+        <label for="sign-up">Sign me up for email updates:</label>
+        <input type="checkbox" id="sign-up" name="sign-up" required >
+
+
+ </fieldset>
+<button>SUBMIT</button><br>
+</div>
+
+
+</section>
+
+<!-- ------------------------------- Footer (Optional) ----------------------------->
+<footer>
+    <p>&copy; 2024 Pana Cloud. All rights reserved.</p>
+</footer>
+
+
+
+
+</body>
+</html>
